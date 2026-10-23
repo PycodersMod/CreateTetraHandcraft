@@ -1,0 +1,13 @@
+# PycodersMod Organization · Mod repository ignores
+**/.gradle/
+**/build/
+**/out/
+**/run/
+**/logs/
+**/runtime/
+**/.idea/
+**/.vscode/
+**/docs/DEPENDENCY_LOCK.local.json
+*.iml
+*.log
+hs_err_pid*.log

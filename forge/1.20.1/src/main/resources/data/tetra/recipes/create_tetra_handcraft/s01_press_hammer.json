@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["bcb", "Pab", "PaP"],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "a": { "item": "minecraft:stick" },
+    "b": { "item": "minecraft:iron_ingot" },
+    "c": { "item": "create:andesite_alloy" }
+  },
+  "result": {
+    "item": "tetra:scroll_rolled",
+    "count": 1,
+    "nbt": { "BlockEntityTag": { "data": [{
+      "key": "create_tetra_handcraft/s01_press_hammer",
+      "schematics": ["tetra:create_tetra_handcraft/s01_press_hammer"],
+      "intricate": true,
+      "material": 2,
+      "ribbon": "d4b057",
+      "glyphs": [15, 14, 13, 15]
+    }] } }
+  }
+}

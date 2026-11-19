@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "item": "create:brass_casing" },
+    "I": { "item": "create:whisk" },
+    "S": { "item": "create:cogwheel" }
+  },
+  "pattern": ["S", "C", "I"],
+  "result": { "item": "create:mechanical_mixer" },
+  "show_notification": true
+}

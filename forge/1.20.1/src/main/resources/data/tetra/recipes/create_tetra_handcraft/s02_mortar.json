@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["PPP", "bab", "PbP"],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "a": { "item": "create:andesite_alloy" },
+    "b": { "tag": "forge:stone" }
+  },
+  "result": {
+    "item": "tetra:scroll_rolled",
+    "count": 1,
+    "nbt": { "BlockEntityTag": { "data": [{
+      "key": "create_tetra_handcraft/s02_mortar",
+      "schematics": ["tetra:create_tetra_handcraft/s02_mortar"],
+      "intricate": true,
+      "material": 2,
+      "ribbon": "d4b057",
+      "glyphs": [15, 14, 13, 15]
+    }] } }
+  }
+}

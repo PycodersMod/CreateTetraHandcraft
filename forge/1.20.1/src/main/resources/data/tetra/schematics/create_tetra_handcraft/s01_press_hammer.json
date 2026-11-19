@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "localizationKey": "create_tetra_handcraft/s01_press_hammer",
+  "slots": ["double/head_left", "double/head_right"],
+  "keySuffixes": ["_left", "_right"],
+  "materialSlotCount": 1,
+  "displayType": "improvement",
+  "requirement": {
+    "type": "tetra:and",
+    "requirements": [
+      {
+        "type": "tetra:or",
+        "requirements": [
+          {"type": "tetra:module", "module": "double/basic_hammer_left"},
+          {"type": "tetra:module", "module": "double/basic_hammer_right"}
+        ]
+      },
+      {
+        "type": "tetra:not",
+        "requirement": {"type": "tetra:improvement", "improvement": "double/warforged"}
+      },
+      {
+        "type": "tetra:not",
+        "requirement": {
+          "type": "tetra:improvement",
+          "improvement": "create_tetra_handcraft:press_hammer"
+        }
+      }
+    ]
+  },
+  "outcomes": [
+    {
+      "material": {"items": ["minecraft:oak_log"], "count": 1},
+      "requiredTools": {"hammer_dig": "minecraft:iron"},
+      "improvements": {"create_tetra_handcraft:press_hammer": 0}
+    }
+  ]
+}

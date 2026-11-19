@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["PDP", "PMP", "PPP"],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "D": { "item": "minecraft:diamond" },
+    "M": { "item": "create_hand_made:mortar" }
+  },
+  "result": {
+    "item": "tetra:scroll_rolled",
+    "count": 1,
+    "nbt": { "BlockEntityTag": { "data": [{
+      "key": "create_tetra_handcraft/s03_crusher_mortar",
+      "schematics": ["tetra:create_tetra_handcraft/s03_crusher_mortar"],
+      "intricate": true,
+      "material": 2,
+      "ribbon": "d4b057",
+      "glyphs": [15, 14, 13, 15]
+    }] } }
+  }
+}
